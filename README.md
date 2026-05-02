@@ -1,4 +1,4 @@
-# 🛒 Retail Sales Data Platform (Azure Data Engineering)
+# 🛒 Retail Sales Data Platform
 
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-Cloud-blue?logo=microsoftazure)
 ![ADF](https://img.shields.io/badge/Azure%20Data%20Factory-Orchestration-orange?logo=microsoftazure)
