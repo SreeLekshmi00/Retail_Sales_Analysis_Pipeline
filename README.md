@@ -38,8 +38,9 @@ Medallion Architecture (Bronze → Silver → Gold)
 - Azure Data Factory  
 - ADLS Gen2  
 - Azure SQL Database  
-- Power BI  
+- Power BI
+- Data Flow
+- Trigger
 
 ## 🏁 Outcome
-
-Production-style pipeline delivering analytics-ready data for reporting.
+Pipeline delivering analytics-ready data for reporting.
