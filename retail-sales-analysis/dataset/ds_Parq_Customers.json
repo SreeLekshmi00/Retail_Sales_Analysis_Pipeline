@@ -1,0 +1,21 @@
+{
+    "name": "ds_Parq_Customers",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_Par_Customers",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "Customers",
+                "fileSystem": "bronze"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

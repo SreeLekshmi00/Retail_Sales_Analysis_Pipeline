@@ -1,0 +1,24 @@
+{
+    "name": "ls_AzSQL",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureSqlDatabase",
+        "typeProperties": {
+            "server": "retail-gb.database.windows.net",
+            "database": "RetailDB",
+            "encrypt": "mandatory",
+            "trustServerCertificate": true,
+            "authenticationType": "SQL",
+            "userName": "Niranjan",
+            "password": {
+                "type": "AzureKeyVaultSecret",
+                "store": {
+                    "referenceName": "SQLPass",
+                    "type": "LinkedServiceReference"
+                },
+                "secretName": "AzSQLPass"
+            }
+        }
+    }
+}

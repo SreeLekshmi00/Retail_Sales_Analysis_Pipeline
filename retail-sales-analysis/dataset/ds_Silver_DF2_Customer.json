@@ -1,0 +1,21 @@
+{
+    "name": "ds_Silver_DF2_Customer",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_Silver_DF2_Customer",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "Customers",
+                "fileSystem": "silver"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

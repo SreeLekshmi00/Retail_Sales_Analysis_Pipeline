@@ -1,0 +1,811 @@
+{
+  "meta": {
+    "page": 10,
+    "pageSize": 100,
+    "totalRecords": 1000,
+    "totalPages": 10,
+    "nextPage": null
+  },
+  "data": [
+    {
+      "SaleID": 901,
+      "CustomerID": 83,
+      "ProductID": 160,
+      "SaleDate": "2024-10-13",
+      "Quantity": 1,
+      "TotalAmount": 29.26
+    },
+    {
+      "SaleID": 902,
+      "CustomerID": 10,
+      "ProductID": 230,
+      "SaleDate": "2024-10-14",
+      "Quantity": 3,
+      "TotalAmount": 3046.68
+    },
+    {
+      "SaleID": 903,
+      "CustomerID": 115,
+      "ProductID": 11,
+      "SaleDate": "2024-10-14",
+      "Quantity": 9,
+      "TotalAmount": 1079.01
+    },
+    {
+      "SaleID": 904,
+      "CustomerID": 111,
+      "ProductID": 43,
+      "SaleDate": "2024-10-15",
+      "Quantity": 7,
+      "TotalAmount": 784.98
+    },
+    {
+      "SaleID": 905,
+      "CustomerID": 113,
+      "ProductID": 121,
+      "SaleDate": "2024-10-17",
+      "Quantity": 10,
+      "TotalAmount": 3802.0
+    },
+    {
+      "SaleID": 906,
+      "CustomerID": 6,
+      "ProductID": 223,
+      "SaleDate": "2024-10-19",
+      "Quantity": 10,
+      "TotalAmount": 135.4
+    },
+    {
+      "SaleID": 907,
+      "CustomerID": 245,
+      "ProductID": 244,
+      "SaleDate": "2024-10-19",
+      "Quantity": 10,
+      "TotalAmount": 804.0
+    },
+    {
+      "SaleID": 908,
+      "CustomerID": 78,
+      "ProductID": 177,
+      "SaleDate": "2024-10-19",
+      "Quantity": 9,
+      "TotalAmount": 292.14
+    },
+    {
+      "SaleID": 909,
+      "CustomerID": 83,
+      "ProductID": 65,
+      "SaleDate": "2024-10-21",
+      "Quantity": 1,
+      "TotalAmount": 21.33
+    },
+    {
+      "SaleID": 910,
+      "CustomerID": 243,
+      "ProductID": 57,
+      "SaleDate": "2024-10-21",
+      "Quantity": 2,
+      "TotalAmount": 761.28
+    },
+    {
+      "SaleID": 911,
+      "CustomerID": 71,
+      "ProductID": 246,
+      "SaleDate": "2024-10-23",
+      "Quantity": 7,
+      "TotalAmount": 304.64
+    },
+    {
+      "SaleID": 912,
+      "CustomerID": 94,
+      "ProductID": 245,
+      "SaleDate": "2024-10-23",
+      "Quantity": 10,
+      "TotalAmount": 2308.6
+    },
+    {
+      "SaleID": 913,
+      "CustomerID": 68,
+      "ProductID": 147,
+      "SaleDate": "2024-10-23",
+      "Quantity": 8,
+      "TotalAmount": 768.64
+    },
+    {
+      "SaleID": 914,
+      "CustomerID": 85,
+      "ProductID": 154,
+      "SaleDate": "2024-10-24",
+      "Quantity": 6,
+      "TotalAmount": 484.5
+    },
+    {
+      "SaleID": 915,
+      "CustomerID": 50,
+      "ProductID": 179,
+      "SaleDate": "2024-10-25",
+      "Quantity": 10,
+      "TotalAmount": 1027.1
+    },
+    {
+      "SaleID": 916,
+      "CustomerID": 229,
+      "ProductID": 151,
+      "SaleDate": "2024-10-26",
+      "Quantity": 5,
+      "TotalAmount": 1334.85
+    },
+    {
+      "SaleID": 917,
+      "CustomerID": 194,
+      "ProductID": 82,
+      "SaleDate": "2024-10-27",
+      "Quantity": 5,
+      "TotalAmount": 2700.75
+    },
+    {
+      "SaleID": 918,
+      "CustomerID": 142,
+      "ProductID": 35,
+      "SaleDate": "2024-10-27",
+      "Quantity": 7,
+      "TotalAmount": 2833.6
+    },
+    {
+      "SaleID": 919,
+      "CustomerID": 36,
+      "ProductID": 20,
+      "SaleDate": "2024-10-28",
+      "Quantity": 3,
+      "TotalAmount": 988.29
+    },
+    {
+      "SaleID": 920,
+      "CustomerID": 50,
+      "ProductID": 164,
+      "SaleDate": "2024-10-30",
+      "Quantity": 1,
+      "TotalAmount": 403.53
+    },
+    {
+      "SaleID": 921,
+      "CustomerID": 229,
+      "ProductID": 158,
+      "SaleDate": "2024-10-30",
+      "Quantity": 4,
+      "TotalAmount": 533.12
+    },
+    {
+      "SaleID": 922,
+      "CustomerID": 250,
+      "ProductID": 85,
+      "SaleDate": "2024-10-30",
+      "Quantity": 9,
+      "TotalAmount": 2051.91
+    },
+    {
+      "SaleID": 923,
+      "CustomerID": 27,
+      "ProductID": 127,
+      "SaleDate": "2024-10-30",
+      "Quantity": 7,
+      "TotalAmount": 2457.14
+    },
+    {
+      "SaleID": 924,
+      "CustomerID": 80,
+      "ProductID": 59,
+      "SaleDate": "2024-10-30",
+      "Quantity": 10,
+      "TotalAmount": 2443.6
+    },
+    {
+      "SaleID": 925,
+      "CustomerID": 30,
+      "ProductID": 169,
+      "SaleDate": "2024-10-31",
+      "Quantity": 2,
+      "TotalAmount": 668.84
+    },
+    {
+      "SaleID": 926,
+      "CustomerID": 245,
+      "ProductID": 97,
+      "SaleDate": "2024-11-01",
+      "Quantity": 4,
+      "TotalAmount": 862.56
+    },
+    {
+      "SaleID": 927,
+      "CustomerID": 248,
+      "ProductID": 46,
+      "SaleDate": "2024-11-02",
+      "Quantity": 8,
+      "TotalAmount": 358.4
+    },
+    {
+      "SaleID": 928,
+      "CustomerID": 112,
+      "ProductID": 212,
+      "SaleDate": "2024-11-02",
+      "Quantity": 2,
+      "TotalAmount": 706.82
+    },
+    {
+      "SaleID": 929,
+      "CustomerID": 245,
+      "ProductID": 14,
+      "SaleDate": "2024-11-03",
+      "Quantity": 8,
+      "TotalAmount": 1728.88
+    },
+    {
+      "SaleID": 930,
+      "CustomerID": 32,
+      "ProductID": 124,
+      "SaleDate": "2024-11-03",
+      "Quantity": 1,
+      "TotalAmount": 218.72
+    },
+    {
+      "SaleID": 931,
+      "CustomerID": 119,
+      "ProductID": 63,
+      "SaleDate": "2024-11-04",
+      "Quantity": 1,
+      "TotalAmount": 226.38
+    },
+    {
+      "SaleID": 932,
+      "CustomerID": 120,
+      "ProductID": 97,
+      "SaleDate": "2024-11-04",
+      "Quantity": 9,
+      "TotalAmount": 1940.76
+    },
+    {
+      "SaleID": 933,
+      "CustomerID": 179,
+      "ProductID": 227,
+      "SaleDate": "2024-11-05",
+      "Quantity": 2,
+      "TotalAmount": 2003.24
+    },
+    {
+      "SaleID": 934,
+      "CustomerID": 225,
+      "ProductID": 199,
+      "SaleDate": "2024-11-05",
+      "Quantity": 3,
+      "TotalAmount": 55.23
+    },
+    {
+      "SaleID": 935,
+      "CustomerID": 113,
+      "ProductID": 155,
+      "SaleDate": "2024-11-08",
+      "Quantity": 7,
+      "TotalAmount": 1465.8
+    },
+    {
+      "SaleID": 936,
+      "CustomerID": 140,
+      "ProductID": 113,
+      "SaleDate": "2024-11-08",
+      "Quantity": 10,
+      "TotalAmount": 119.6
+    },
+    {
+      "SaleID": 937,
+      "CustomerID": 155,
+      "ProductID": 96,
+      "SaleDate": "2024-11-10",
+      "Quantity": 3,
+      "TotalAmount": 370.74
+    },
+    {
+      "SaleID": 938,
+      "CustomerID": 173,
+      "ProductID": 245,
+      "SaleDate": "2024-11-11",
+      "Quantity": 2,
+      "TotalAmount": 461.72
+    },
+    {
+      "SaleID": 939,
+      "CustomerID": 181,
+      "ProductID": 247,
+      "SaleDate": "2024-11-11",
+      "Quantity": 3,
+      "TotalAmount": 533.04
+    },
+    {
+      "SaleID": 940,
+      "CustomerID": 224,
+      "ProductID": 186,
+      "SaleDate": "2024-11-11",
+      "Quantity": 1,
+      "TotalAmount": 335.32
+    },
+    {
+      "SaleID": 941,
+      "CustomerID": 180,
+      "ProductID": 160,
+      "SaleDate": "2024-11-12",
+      "Quantity": 2,
+      "TotalAmount": 58.52
+    },
+    {
+      "SaleID": 942,
+      "CustomerID": 9,
+      "ProductID": 163,
+      "SaleDate": "2024-11-14",
+      "Quantity": 3,
+      "TotalAmount": 105.96
+    },
+    {
+      "SaleID": 943,
+      "CustomerID": 132,
+      "ProductID": 210,
+      "SaleDate": "2024-11-14",
+      "Quantity": 3,
+      "TotalAmount": 159.39
+    },
+    {
+      "SaleID": 944,
+      "CustomerID": 66,
+      "ProductID": 12,
+      "SaleDate": "2024-11-15",
+      "Quantity": 1,
+      "TotalAmount": 44.18
+    },
+    {
+      "SaleID": 945,
+      "CustomerID": 112,
+      "ProductID": 120,
+      "SaleDate": "2024-11-15",
+      "Quantity": 7,
+      "TotalAmount": 1310.33
+    },
+    {
+      "SaleID": 946,
+      "CustomerID": 116,
+      "ProductID": 77,
+      "SaleDate": "2024-11-16",
+      "Quantity": 4,
+      "TotalAmount": 195.16
+    },
+    {
+      "SaleID": 947,
+      "CustomerID": 204,
+      "ProductID": 233,
+      "SaleDate": "2024-11-17",
+      "Quantity": 4,
+      "TotalAmount": 401.84
+    },
+    {
+      "SaleID": 948,
+      "CustomerID": 56,
+      "ProductID": 87,
+      "SaleDate": "2024-11-19",
+      "Quantity": 4,
+      "TotalAmount": 261.44
+    },
+    {
+      "SaleID": 949,
+      "CustomerID": 187,
+      "ProductID": 8,
+      "SaleDate": "2024-11-19",
+      "Quantity": 5,
+      "TotalAmount": 436.05
+    },
+    {
+      "SaleID": 950,
+      "CustomerID": 146,
+      "ProductID": 209,
+      "SaleDate": "2024-11-22",
+      "Quantity": 2,
+      "TotalAmount": 64.9
+    },
+    {
+      "SaleID": 951,
+      "CustomerID": 124,
+      "ProductID": 203,
+      "SaleDate": "2024-11-23",
+      "Quantity": 7,
+      "TotalAmount": 170.59
+    },
+    {
+      "SaleID": 952,
+      "CustomerID": 113,
+      "ProductID": 133,
+      "SaleDate": "2024-11-24",
+      "Quantity": 4,
+      "TotalAmount": 2006.88
+    },
+    {
+      "SaleID": 953,
+      "CustomerID": 192,
+      "ProductID": 230,
+      "SaleDate": "2024-11-24",
+      "Quantity": 5,
+      "TotalAmount": 5077.8
+    },
+    {
+      "SaleID": 954,
+      "CustomerID": 3,
+      "ProductID": 178,
+      "SaleDate": "2024-11-25",
+      "Quantity": 2,
+      "TotalAmount": 34.14
+    },
+    {
+      "SaleID": 955,
+      "CustomerID": 178,
+      "ProductID": 160,
+      "SaleDate": "2024-11-26",
+      "Quantity": 8,
+      "TotalAmount": 234.08
+    },
+    {
+      "SaleID": 956,
+      "CustomerID": 51,
+      "ProductID": 109,
+      "SaleDate": "2024-11-27",
+      "Quantity": 8,
+      "TotalAmount": 69.12
+    },
+    {
+      "SaleID": 957,
+      "CustomerID": 193,
+      "ProductID": 234,
+      "SaleDate": "2024-11-27",
+      "Quantity": 10,
+      "TotalAmount": 2733.2
+    },
+    {
+      "SaleID": 958,
+      "CustomerID": 229,
+      "ProductID": 215,
+      "SaleDate": "2024-11-27",
+      "Quantity": 10,
+      "TotalAmount": 574.0
+    },
+    {
+      "SaleID": 959,
+      "CustomerID": 26,
+      "ProductID": 182,
+      "SaleDate": "2024-11-27",
+      "Quantity": 9,
+      "TotalAmount": 1940.22
+    },
+    {
+      "SaleID": 960,
+      "CustomerID": 102,
+      "ProductID": 137,
+      "SaleDate": "2024-12-02",
+      "Quantity": 5,
+      "TotalAmount": 1126.75
+    },
+    {
+      "SaleID": 961,
+      "CustomerID": 230,
+      "ProductID": 147,
+      "SaleDate": "2024-12-04",
+      "Quantity": 7,
+      "TotalAmount": 672.56
+    },
+    {
+      "SaleID": 962,
+      "CustomerID": 21,
+      "ProductID": 215,
+      "SaleDate": "2024-12-04",
+      "Quantity": 5,
+      "TotalAmount": 287.0
+    },
+    {
+      "SaleID": 963,
+      "CustomerID": 231,
+      "ProductID": 210,
+      "SaleDate": "2024-12-06",
+      "Quantity": 8,
+      "TotalAmount": 425.04
+    },
+    {
+      "SaleID": 964,
+      "CustomerID": 37,
+      "ProductID": 205,
+      "SaleDate": "2024-12-06",
+      "Quantity": 4,
+      "TotalAmount": 2097.36
+    },
+    {
+      "SaleID": 965,
+      "CustomerID": 150,
+      "ProductID": 136,
+      "SaleDate": "2024-12-07",
+      "Quantity": 8,
+      "TotalAmount": 2640.88
+    },
+    {
+      "SaleID": 966,
+      "CustomerID": 249,
+      "ProductID": 19,
+      "SaleDate": "2024-12-08",
+      "Quantity": 3,
+      "TotalAmount": 80.85
+    },
+    {
+      "SaleID": 967,
+      "CustomerID": 159,
+      "ProductID": 150,
+      "SaleDate": "2024-12-08",
+      "Quantity": 2,
+      "TotalAmount": 73.22
+    },
+    {
+      "SaleID": 968,
+      "CustomerID": 3,
+      "ProductID": 188,
+      "SaleDate": "2024-12-08",
+      "Quantity": 1,
+      "TotalAmount": 284.35
+    },
+    {
+      "SaleID": 969,
+      "CustomerID": 39,
+      "ProductID": 155,
+      "SaleDate": "2024-12-09",
+      "Quantity": 4,
+      "TotalAmount": 837.6
+    },
+    {
+      "SaleID": 970,
+      "CustomerID": 12,
+      "ProductID": 3,
+      "SaleDate": "2024-12-10",
+      "Quantity": 2,
+      "TotalAmount": 688.5
+    },
+    {
+      "SaleID": 971,
+      "CustomerID": 3,
+      "ProductID": 55,
+      "SaleDate": "2024-12-11",
+      "Quantity": 4,
+      "TotalAmount": 1782.92
+    },
+    {
+      "SaleID": 972,
+      "CustomerID": 62,
+      "ProductID": 125,
+      "SaleDate": "2024-12-12",
+      "Quantity": 2,
+      "TotalAmount": 158.04
+    },
+    {
+      "SaleID": 973,
+      "CustomerID": 241,
+      "ProductID": 129,
+      "SaleDate": "2024-12-15",
+      "Quantity": 3,
+      "TotalAmount": 2613.3
+    },
+    {
+      "SaleID": 974,
+      "CustomerID": 176,
+      "ProductID": 48,
+      "SaleDate": "2024-12-17",
+      "Quantity": 1,
+      "TotalAmount": 418.19
+    },
+    {
+      "SaleID": 975,
+      "CustomerID": 25,
+      "ProductID": 28,
+      "SaleDate": "2024-12-17",
+      "Quantity": 10,
+      "TotalAmount": 1480.0
+    },
+    {
+      "SaleID": 976,
+      "CustomerID": 78,
+      "ProductID": 80,
+      "SaleDate": "2024-12-17",
+      "Quantity": 3,
+      "TotalAmount": 88.56
+    },
+    {
+      "SaleID": 977,
+      "CustomerID": 54,
+      "ProductID": 144,
+      "SaleDate": "2024-12-21",
+      "Quantity": 2,
+      "TotalAmount": 330.98
+    },
+    {
+      "SaleID": 978,
+      "CustomerID": 125,
+      "ProductID": 223,
+      "SaleDate": "2024-12-21",
+      "Quantity": 5,
+      "TotalAmount": 67.7
+    },
+    {
+      "SaleID": 979,
+      "CustomerID": 4,
+      "ProductID": 181,
+      "SaleDate": "2024-12-21",
+      "Quantity": 5,
+      "TotalAmount": 196.45
+    },
+    {
+      "SaleID": 980,
+      "CustomerID": 172,
+      "ProductID": 108,
+      "SaleDate": "2024-12-22",
+      "Quantity": 6,
+      "TotalAmount": 4578.84
+    },
+    {
+      "SaleID": 981,
+      "CustomerID": 176,
+      "ProductID": 162,
+      "SaleDate": "2024-12-23",
+      "Quantity": 8,
+      "TotalAmount": 2389.84
+    },
+    {
+      "SaleID": 982,
+      "CustomerID": 79,
+      "ProductID": 6,
+      "SaleDate": "2024-12-23",
+      "Quantity": 6,
+      "TotalAmount": 222.24
+    },
+    {
+      "SaleID": 983,
+      "CustomerID": 176,
+      "ProductID": 179,
+      "SaleDate": "2024-12-24",
+      "Quantity": 2,
+      "TotalAmount": 205.42
+    },
+    {
+      "SaleID": 984,
+      "CustomerID": 198,
+      "ProductID": 49,
+      "SaleDate": "2024-12-26",
+      "Quantity": 1,
+      "TotalAmount": 67.47
+    },
+    {
+      "SaleID": 985,
+      "CustomerID": 32,
+      "ProductID": 242,
+      "SaleDate": "2024-12-26",
+      "Quantity": 8,
+      "TotalAmount": 8174.08
+    },
+    {
+      "SaleID": 986,
+      "CustomerID": 42,
+      "ProductID": 4,
+      "SaleDate": "2024-12-26",
+      "Quantity": 1,
+      "TotalAmount": 24.66
+    },
+    {
+      "SaleID": 987,
+      "CustomerID": 165,
+      "ProductID": 221,
+      "SaleDate": "2024-12-27",
+      "Quantity": 7,
+      "TotalAmount": 3326.4
+    },
+    {
+      "SaleID": 988,
+      "CustomerID": 178,
+      "ProductID": 139,
+      "SaleDate": "2024-12-27",
+      "Quantity": 2,
+      "TotalAmount": 560.54
+    },
+    {
+      "SaleID": 989,
+      "CustomerID": 6,
+      "ProductID": 194,
+      "SaleDate": "2024-12-28",
+      "Quantity": 9,
+      "TotalAmount": 4526.19
+    },
+    {
+      "SaleID": 990,
+      "CustomerID": 220,
+      "ProductID": 113,
+      "SaleDate": "2024-12-28",
+      "Quantity": 7,
+      "TotalAmount": 83.72
+    },
+    {
+      "SaleID": 991,
+      "CustomerID": 216,
+      "ProductID": 236,
+      "SaleDate": "2024-12-28",
+      "Quantity": 2,
+      "TotalAmount": 179.48
+    },
+    {
+      "SaleID": 992,
+      "CustomerID": 156,
+      "ProductID": 20,
+      "SaleDate": "2024-12-30",
+      "Quantity": 8,
+      "TotalAmount": 2635.44
+    },
+    {
+      "SaleID": 993,
+      "CustomerID": 179,
+      "ProductID": 171,
+      "SaleDate": "2024-12-30",
+      "Quantity": 10,
+      "TotalAmount": 389.7
+    },
+    {
+      "SaleID": 994,
+      "CustomerID": 48,
+      "ProductID": 183,
+      "SaleDate": "2024-12-30",
+      "Quantity": 1,
+      "TotalAmount": 15.24
+    },
+    {
+      "SaleID": 995,
+      "CustomerID": 72,
+      "ProductID": 37,
+      "SaleDate": "2024-12-30",
+      "Quantity": 7,
+      "TotalAmount": 244.02
+    },
+    {
+      "SaleID": 996,
+      "CustomerID": 168,
+      "ProductID": 35,
+      "SaleDate": "2024-12-31",
+      "Quantity": 9,
+      "TotalAmount": 3643.2
+    },
+    {
+      "SaleID": 997,
+      "CustomerID": 94,
+      "ProductID": 242,
+      "SaleDate": "2024-12-31",
+      "Quantity": 7,
+      "TotalAmount": 7152.32
+    },
+    {
+      "SaleID": 998,
+      "CustomerID": 162,
+      "ProductID": 108,
+      "SaleDate": "2024-12-31",
+      "Quantity": 6,
+      "TotalAmount": 4578.84
+    },
+    {
+      "SaleID": 999,
+      "CustomerID": 156,
+      "ProductID": 235,
+      "SaleDate": "2024-12-31",
+      "Quantity": 10,
+      "TotalAmount": 2031.4
+    },
+    {
+      "SaleID": 1000,
+      "CustomerID": 76,
+      "ProductID": 154,
+      "SaleDate": "2024-12-31",
+      "Quantity": 5,
+      "TotalAmount": 403.75
+    }
+  ]
+}

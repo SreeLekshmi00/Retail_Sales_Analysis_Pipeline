@@ -1,0 +1,21 @@
+{
+    "name": "ls_Table_Products",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "SqlServer",
+        "typeProperties": {
+            "server": "FALCON",
+            "database": "LearnSQL",
+            "encrypt": "mandatory",
+            "trustServerCertificate": true,
+            "authenticationType": "SQL",
+            "<YOUR_SQL_USERNAME>",
+	"encryptedCredential": "<GENERATED_BY_ADF_ON_IMPORT>"
+        },
+        "connectVia": {
+            "referenceName": "IR-Retail-GB",
+            "type": "IntegrationRuntimeReference"
+        }
+    }
+}

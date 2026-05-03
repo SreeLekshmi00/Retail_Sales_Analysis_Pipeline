@@ -1,0 +1,25 @@
+{
+    "name": "ds_Sales_Source",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_Sales_Sources",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "relativeURL": {
+                "type": "string",
+                "defaultValue": "1"
+            }
+        },
+        "annotations": [],
+        "type": "RestResource",
+        "typeProperties": {
+            "relativeUrl": {
+                "value": "@concat('sales_page_',dataset().relativeURL,'.json')",
+                "type": "Expression"
+            }
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,147 @@
+{
+    "name": "RetailSale_DF",
+    "properties": {
+        "type": "MappingDataFlow",
+        "typeProperties": {
+            "sources": [
+                {
+                    "dataset": {
+                        "referenceName": "ds_Parq_Products",
+                        "type": "DatasetReference"
+                    },
+                    "name": "Products"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_Parq_Customers",
+                        "type": "DatasetReference"
+                    },
+                    "name": "Customers"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_Parq_Sales",
+                        "type": "DatasetReference"
+                    },
+                    "name": "Sales"
+                }
+            ],
+            "sinks": [
+                {
+                    "dataset": {
+                        "referenceName": "ds_Parq_Silver",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sink1"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_Parq_Silver_Customers",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sink2"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_Parq_Silver_Sales",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sink3"
+                }
+            ],
+            "transformations": [
+                {
+                    "name": "NonBooks"
+                },
+                {
+                    "name": "filter2"
+                },
+                {
+                    "name": "rank1"
+                },
+                {
+                    "name": "sort1"
+                },
+                {
+                    "name": "rank2"
+                },
+                {
+                    "name": "filter3"
+                },
+                {
+                    "name": "sort2"
+                }
+            ],
+            "scriptLines": [
+                "source(output(",
+                "          ProductID as integer,",
+                "          ProductName as string,",
+                "          Category as string,",
+                "          Price as decimal(10,2),",
+                "          StockQuantity as integer",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     ignoreNoFilesFound: false,",
+                "     format: 'parquet') ~> Products",
+                "source(output(",
+                "          CustomerID as string,",
+                "          CustomerName as string,",
+                "          Email as string,",
+                "          Phone as string,",
+                "          City as string,",
+                "          Country as string",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     ignoreNoFilesFound: false,",
+                "     format: 'parquet') ~> Customers",
+                "source(output(",
+                "          SaleID as long,",
+                "          CustomerID as long,",
+                "          ProductID as long,",
+                "          SaleDate as string,",
+                "          Quantity as long,",
+                "          TotalAmount as double",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     ignoreNoFilesFound: false,",
+                "     format: 'parquet') ~> Sales",
+                "Products filter(Category != 'Books') ~> NonBooks",
+                "Customers filter(Country === 'UK') ~> filter2",
+                "filter2 rank(asc(Country, true),",
+                "     output(CountryRank as long)) ~> rank1",
+                "NonBooks sort(asc(StockQuantity, true)) ~> sort1",
+                "sort1 rank(desc(StockQuantity, true),",
+                "     output(StockLevel as long)) ~> rank2",
+                "Sales filter(Quantity<10) ~> filter3",
+                "filter3 sort(desc(TotalAmount, true)) ~> sort2",
+                "rank2 sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     format: 'parquet',",
+                "     umask: 0022,",
+                "     preCommands: [],",
+                "     postCommands: [],",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true) ~> sink1",
+                "rank1 sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     format: 'parquet',",
+                "     umask: 0022,",
+                "     preCommands: [],",
+                "     postCommands: [],",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true) ~> sink2",
+                "sort2 sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     format: 'parquet',",
+                "     umask: 0022,",
+                "     preCommands: [],",
+                "     postCommands: [],",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true) ~> sink3"
+            ]
+        }
+    }
+}

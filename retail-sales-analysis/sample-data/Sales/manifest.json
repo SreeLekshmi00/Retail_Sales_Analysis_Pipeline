@@ -1,0 +1,59 @@
+{
+  "description": "Sales transactions paginated dataset - ADF manifest",
+  "totalRecords": 1000,
+  "totalPages": 10,
+  "pageSize": 100,
+  "firstPageUrl": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/sales_page_1.json",
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/sales_page_1.json",
+      "records": 100
+    },
+    {
+      "page": 2,
+      "url": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/sales_page_2.json",
+      "records": 100
+    },
+    {
+      "page": 3,
+      "url": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/sales_page_3.json",
+      "records": 100
+    },
+    {
+      "page": 4,
+      "url": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/sales_page_4.json",
+      "records": 100
+    },
+    {
+      "page": 5,
+      "url": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/sales_page_5.json",
+      "records": 100
+    },
+    {
+      "page": 6,
+      "url": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/sales_page_6.json",
+      "records": 100
+    },
+    {
+      "page": 7,
+      "url": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/sales_page_7.json",
+      "records": 100
+    },
+    {
+      "page": 8,
+      "url": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/sales_page_8.json",
+      "records": 100
+    },
+    {
+      "page": 9,
+      "url": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/sales_page_9.json",
+      "records": 100
+    },
+    {
+      "page": 10,
+      "url": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/sales_page_10.json",
+      "records": 100
+    }
+  ]
+}

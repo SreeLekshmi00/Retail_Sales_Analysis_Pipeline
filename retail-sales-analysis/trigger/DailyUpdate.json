@@ -1,0 +1,24 @@
+{
+    "name": "DailyUpdate",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Stopped",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "RetailSale_GB_Pipeline01",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Day",
+                "interval": 1,
+                "startTime": "2026-05-01T00:00:00",
+                "timeZone": "GMT Standard Time"
+            }
+        }
+    }
+}

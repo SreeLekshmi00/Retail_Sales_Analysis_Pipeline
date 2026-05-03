@@ -1,0 +1,21 @@
+{
+    "name": "ds_Parq_Products",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_Parq_Products",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "Products",
+                "fileSystem": "bronze"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

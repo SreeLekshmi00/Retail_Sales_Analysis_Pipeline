@@ -1,0 +1,13 @@
+{
+    "name": "ls_Sales_Sources",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "RestService",
+        "typeProperties": {
+            "url": "https://raw.githubusercontent.com/SreeLekshmi00/RetailSales/main/Sales/",
+            "enableServerCertificateValidation": true,
+            "authenticationType": "Anonymous"
+        }
+    }
+}

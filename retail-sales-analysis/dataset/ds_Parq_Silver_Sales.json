@@ -1,0 +1,21 @@
+{
+    "name": "ds_Parq_Silver_Sales",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_Parq_Silver_Sales",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "Sales",
+                "fileSystem": "silver"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

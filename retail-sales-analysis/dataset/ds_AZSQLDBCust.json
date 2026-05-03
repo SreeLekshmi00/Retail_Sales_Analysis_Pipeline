@@ -1,0 +1,17 @@
+{
+    "name": "ds_AZSQLDBCust",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_AzSQL",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "Sales"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

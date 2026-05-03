@@ -1,0 +1,46 @@
+{
+    "name": "ds_Parq_Sales",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_Parq_Sales",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "Sales",
+                "fileSystem": "bronze"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": [
+            {
+                "name": "SaleID",
+                "type": "INT64"
+            },
+            {
+                "name": "CustomerID",
+                "type": "INT64"
+            },
+            {
+                "name": "ProductID",
+                "type": "INT64"
+            },
+            {
+                "name": "SaleDate",
+                "type": "UTF8"
+            },
+            {
+                "name": "Quantity",
+                "type": "INT64"
+            },
+            {
+                "name": "TotalAmount",
+                "type": "DOUBLE"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
